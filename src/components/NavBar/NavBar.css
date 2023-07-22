@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800|Playfair+Display:400,400i,700,700i,900,900i&display=swap');
+body{
+  font-family: 'Assistant', sans-serif;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+}
+.imgLogo{
+  padding: 0 70px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.nav-links{
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+}
+.home,
+.tourism,
+.category,
+.login,
+.signup{
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #6b526b ;
+}
+.login{
+  background-color: #6b526b;
+  border: 1px solid;
+  border-radius: 8px;  
+  color: #fff;
+}
+.login:hover {
+  background-color: #CBAACB;
+  color: #fff;
+}
+.signup{
+  background-color: #A87FA8;
+  border: 1px solid;
+  border-radius: 8px;
+  color: #fff;
+}
+.signup:hover {
+  background-color: #CBAACB;
+  color: #fff;
+}
+a.active, a:hover {
+  transition: .5s;
+  font-weight: bold;
+  color: #6b526b ;
+}
+
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width:1024px){
+  .imgLogo{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+  }
+  .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+  .responsive_nav{
+    transform: none;
+  }
+.nav-close-btn{
+  position: absolute;
+  top: 0.1rem;
+  right: 2rem;
+}
+
+  
+}
