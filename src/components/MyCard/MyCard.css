@@ -1,34 +1,55 @@
-.section-popular-content {
-    .section-popular-travel {
-      .card-travel {
-        background-color: #ddd;
-        min-height: 380px;
-        padding: 30px;
-        margin-bottom: 20px;
-        background-size: cover;
-      }
-  
-      .travel-country {
-        font-size: 18px;
-        color: #fff;
-      }
-  
-      .travel-location {
-        font-size: 26px;
-        color: #fff;
-      }
-  
-      .travel-button {
-        .btn-travel-details {
-          background-color: #A87FA8;
-          color: #fff;
-  
-          &:hover {
-            background-color: #CBAACB;
-            color: #fff;
-          }
-        }
-      }
-    }
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #6b526b;
+}
+.desc-title {
+  font-size: 18px;
+  text-align: center;
+  color: #6b526b;
+}
+.popular-travel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.travel-content {
+  overflow: hidden;
+  text-align: center;
+  width: 240px;
+  height: 340px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+.travel-content:hover {
+  box-shadow: 5px 15px 25px #eeeeee;
+}
+.travel-content img{
+  height: 200px;
+  margin: 1rem;
+  transform: all 0.3s;
+}
+.travel-content a:link, .travel-content a:visited{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #A87FA8;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  transform: all 0.2s;
+  color: #FFf;
+}
+.travel-content a:hover{
+  transform: scale(1.1);
+  background-color: #CBAACB;
+}
