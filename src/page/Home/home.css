@@ -1,0 +1,43 @@
+
+header {
+    background: url(src/assets/images/h2.jpg) ;
+    background-size:cover;
+    border-radius: 40px;
+    min-height: 82vh;
+    width: 85%;
+    padding: 120px 0 90px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -24px;
+}
+h1,
+p {
+  color: #4B3D4B;
+}
+h1 {
+  padding: 40px 0 40px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.btn-get-started {
+    background-color: #6b526b;
+    color: #fff;
+    border-radius: 8px;  
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 15px;
+    cursor: pointer;
+
+    
+    &:hover {
+      background-color: #CBAACB;
+      color: #fff;
+    }
+  }
