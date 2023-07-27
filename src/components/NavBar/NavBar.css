@@ -8,25 +8,24 @@
   height: 75px;
 }
 .imgLogo{
-  padding: 0 70px;
-  margin-top: 10px;
+  margin-top: 12px;
   cursor: pointer;
 }
 .nav-links{
   display: flex;
   justify-content: flex-end;
-  width: 75%;
+  width: 60%;
 }
 .home,
 .tourism,
 .category,
 .login,
 .signup{
-  font-size: 16px;
-  text-decoration: none;
-  padding: 10px 20px;
-  margin: 0 10px;
-  cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 4px;
+    cursor: pointer;
   color: #6b526b ;
 }
 .login{
