@@ -8,40 +8,43 @@ h1 {
   text-align: center;
   color: #6b526b;
 }
+
 .desc-title {
   font-size: 18px;
   text-align: center;
   color: #6b526b;
 }
-.popular-travel{
+
+.popular-travel {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .travel-content {
   overflow: hidden;
   text-align: center;
   width: 240px;
   height: 340px;
-  padding: 2rem;
-  display:inline-flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
-  background:url(src/assets/images/kraton.png);  
-  background-size:cover;
+  margin: 1.5rem;
+  background-size: cover;
 }
+
 .travel-content:hover {
   box-shadow: 5px 15px 25px #eeeeee;
 }
-.travel-content img{
-  height: 200px;
-  margin: 1rem;
-  transform: all 0.3s;
+
+.travel-content img {
+  height: 100%;
 }
-.travel-content a:link, .travel-content a:visited{
+
+.travel-content a:link,
+.travel-content a:visited {
   display: inline-block;
   text-decoration: none;
   background-color: #A87FA8;
@@ -51,17 +54,26 @@ h1 {
   transform: all 0.2s;
   color: #FFf;
 }
-.travel-content a:hover{
+
+.travel-content a:hover {
   transform: scale(1.1);
   background-color: #CBAACB;
 }
-.travel-info{
+
+.travel-info {
   color: #fff;
 }
-.travel-title{
-  font-size: 18px;
-  margin-top: -20vh;
+
+.travel-title {
+  font-size: 20px;
+  margin-top: -48vh;
 }
-.travel-location{
-  font-size: 24px;  
+
+.travel-location {
+  font-size: 28px;
+  margin-top: 2vh;
+}
+
+.travel-btn {
+  margin-top: 25vh;
 }
