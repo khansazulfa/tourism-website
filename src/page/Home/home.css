@@ -83,3 +83,17 @@ p {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+.section-testimonial {
+  background: linear-gradient(#fff 0%,
+      #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.card-list-testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
