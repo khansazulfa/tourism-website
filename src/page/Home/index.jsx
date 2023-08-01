@@ -1,5 +1,6 @@
 import MyCard from '../../components/MyCard'
 import NavBar from '../../components/NavBar'
+import CardTestimonial from '../../components/CardTestimonia;'
 import './home.css'
 
 function Home() {
@@ -54,11 +55,14 @@ function Home() {
             <h1 className='title'>There Are Loving Us</h1>
             <p className='desc-title'> Moments were giving them <br /> the best experience</p>
           </div>
+          <div className='card-list-testimonial'>
+            <CardTestimonial avatar='src/assets/images/avatar-1.png' fullname='Dias More' testimonial='jsjjd' trip='Trip Ubud' />
+            <CardTestimonial avatar='src/assets/images/avatar-2.png' fullname='Dias More' testimonial='jsjjd' trip='Trip Ubud' />
+            <CardTestimonial avatar='src/assets/images/avatar-3.png' fullname='Dias More' testimonial='jsjjd' trip='Trip Ubud' />
+          </div>
+
         </section>
 
-        <section className='section-testimonial-content'>
-
-        </section>
 
 
 
