@@ -7,17 +7,14 @@ const CardTestimonial = (props) => {
             <div className='testimonial-card'>
                 <div className='testimonial-content'>
                     <img className="img-avatar-testimonial" src={props.avatar} alt="avatar-dummy" />
-                    <div className="testimonial-desc">
-                        <h3>{props.fullname}</h3>
-                        <p>{props.testimonial}</p>
-                        <hr />
-                        <p>{props.trip}</p>
-                    </div>
+                    <div className="testimonial-fullname">{props.fullname}</div>
+                    <div className="testimonial-person">{props.testimonial}</div>
+                    <hr className="line-testi" />
+                    <p className="trip-to">{props.trip}</p>
                 </div>
-
-
             </div>
         </section >
+
     )
 }
 
