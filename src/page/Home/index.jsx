@@ -1,7 +1,9 @@
 import MyCard from '../../components/MyCard'
 import NavBar from '../../components/NavBar'
-import CardTestimonial from '../../components/CardTestimonia;'
+import Footer from '../../components/Footer'
+import CardTestimonial from '../../components/CardTestimonial'
 import './home.css'
+
 
 function Home() {
 
@@ -31,8 +33,8 @@ function Home() {
           </div>
           <div className='card-list'>
             <MyCard location='Kraton Yogyakarta' kategori='Culture' place='src/assets/images/kraton.png' />
-            <MyCard location='Pantai Parangtritis' kategori='Maritim' place='src/assets/images/pantai-parangtritis.jpg' />
-            <MyCard location='Candi Prambanan' kategori='Culture' place='src/assets/images/candi-prambanan.jpg' />
+            <MyCard location='Parangtritis Beach' kategori='Maritim' place='src/assets/images/pantai-parangtritis.jpg' />
+            <MyCard location='Prambanan Temple' kategori='Culture' place='src/assets/images/candi-prambanan.jpg' />
             <MyCard location='Lava Tour' kategori='Mountains' place='src/assets/images/lava-tour.webp' />
           </div>
         </section>
@@ -50,21 +52,33 @@ function Home() {
           </div>
         </section>
 
-        <section className='section-testimonial'>
-          <div>
+        <section className='section-testimonials'>
+          <div className='testimonial-title'>
             <h1 className='title'>There Are Loving Us</h1>
             <p className='desc-title'> Moments were giving them <br /> the best experience</p>
           </div>
-          <div className='card-list-testimonial'>
-            <CardTestimonial avatar='src/assets/images/avatar-1.png' fullname='Dias More' testimonial='jsjjd' trip='Trip Ubud' />
-            <CardTestimonial avatar='src/assets/images/avatar-2.png' fullname='Dias More' testimonial='jsjjd' trip='Trip Ubud' />
-            <CardTestimonial avatar='src/assets/images/avatar-3.png' fullname='Dias More' testimonial='jsjjd' trip='Trip Ubud' />
+          <div className='card-list-testimonials'>
+            <CardTestimonial avatar='src/assets/images/avatar-1.png' fullname='Dias More' testimonial='Historic tourist attractions in Yogyakarta' trip='Trip to Kraton Yogyakarta' />
+            <CardTestimonial avatar='src/assets/images/avatar-2.png' fullname='George Rug' testimonial='Beautiful view of the temple
+              Love the atmosphere here.' trip='Trip to Prambanan Temple' />
+            <CardTestimonial avatar='src/assets/images/avatar-3.png' fullname='Shabrina Michel' testimonial='“ I loved it when the waves was shaking harder — I was scared too “' trip='Trip to Parangtriris' />
           </div>
-
         </section>
 
+        <hr className='separation-line' />
 
-
+        <section>
+          <Footer />
+        </section>
+        <hr />
+        <div className="container-fluid">
+          <div className="row border-top justify-content-center 
+    align-items-center pt-4">
+            <div className="col-auto text-gray-500 font-weight-light">
+              2021 Copyright Yogyatorism . All right reserved . Made in Yogyakarta
+            </div>
+          </div>
+        </div>
 
       </div>
     </main>
