@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-.testimonial-card-section {
-    background: linear-gradient(#fff 0%,
-            #f7f9ff 100%);
-    padding-top: 40px;
-    min-height: 506px;
-}
 
 .testimonial-card {
     display: flex;
@@ -16,15 +10,43 @@
 
 .testimonial-content {
     margin: 2rem;
-    height: 70vh;
+    height: 75vh;
     width: 52vh;
-    border: 1px solid #cccccc;
+    border: 1px solid #e2e2e2;
     border-radius: 20px;
+    text-align: center;
+    padding: 40px 20px 10px;
+    background-color: #fff;
 }
 
 .img-avatar-testimonial {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.testimonial-fullname {
+    padding: 20px;
+    font-size: 22px;
+}
+
+.testimonial-person {
+    font-weight: 200;
+    font-size: 24px;
+    color: #6e6e6e;
+    min-height: 150px;
+}
+
+.line-testi {
+    border: 1px solid #e2e2e2;
+    margin-left: -20px;
+    margin-right: -20px;
     margin-top: 30px;
+}
+
+.trip-to {
+    font-weight: normal;
+    font-size: 22px;
+    color: #6e6e6e;
+    margin: 1rem;
 }
