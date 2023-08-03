@@ -84,14 +84,16 @@ p {
   margin-bottom: 10px;
 }
 
-.section-testimonial {
-  background: linear-gradient(#fff 0%,
-      #f7f9ff 100%);
-  padding-top: 50px;
-  min-height: 506px;
+.section-testimonials {
+  /* background: linear-gradient(#fff 0%,
+      #f7f9ff 100%); */
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
-.card-list-testimonial {
+.card-list-testimonials {
   display: flex;
   align-items: center;
   justify-content: center;
