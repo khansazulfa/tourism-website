@@ -1,57 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800|Playfair+Display:400,400i,700,700i,900,900i&display=swap');
 
-.navbar{
+.navbar {
   font-family: 'Assistant', sans-serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 75px;
 }
-.imgLogo{
+
+.imgLogo {
   margin-top: 12px;
   cursor: pointer;
 }
-.nav-links{
+
+.nav-links {
   display: flex;
   justify-content: flex-end;
   width: 60%;
 }
+
 .home,
 .tourism,
 .category,
 .login,
-.signup{
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px 15px;
-    margin: 0 4px;
-    cursor: pointer;
-  color: #6b526b ;
+.signup {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 4px;
+  cursor: pointer;
+  color: #6b526b;
 }
-.login{
+
+.login {
   background-color: #6b526b;
   border: 1px solid;
-  border-radius: 8px;  
+  border-radius: 8px;
   color: #fff;
 }
+
 .login:hover {
   background-color: #CBAACB;
   color: #fff;
 }
-.signup{
+
+.signup {
   background-color: #A87FA8;
   border: 1px solid;
   border-radius: 8px;
   color: #fff;
 }
+
 .signup:hover {
   background-color: #CBAACB;
   color: #fff;
 }
-a.active, a:hover {
+
+a {
+  color: #CBAACB;
+}
+
+a.active,
+a:hover {
   transition: .5s;
   font-weight: bold;
-  color: #6b526b ;
+  color: #6b526b;
 }
 
 .nav-btn {
@@ -65,17 +78,19 @@ a.active, a:hover {
   font-size: 1.2rem;
 }
 
-@media only screen and (max-width:1024px){
-  .imgLogo{
+@media only screen and (max-width:1024px) {
+  .imgLogo {
     display: flex;
     position: absolute;
     top: 15px;
     left: 25px;
   }
+
   .nav-btn {
     visibility: visible;
     opacity: 1;
   }
+
   .navbar {
     position: fixed;
     top: 0;
@@ -90,14 +105,16 @@ a.active, a:hover {
     transition: 1s;
     transform: translateY(-100vh);
   }
-  .responsive_nav{
+
+  .responsive_nav {
     transform: none;
   }
-.nav-close-btn{
-  position: absolute;
-  top: 0.1rem;
-  right: 2rem;
-}
 
-  
+  .nav-close-btn {
+    position: absolute;
+    top: 0.1rem;
+    right: 2rem;
+  }
+
+
 }

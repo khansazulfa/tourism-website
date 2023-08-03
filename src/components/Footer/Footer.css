@@ -1,0 +1,44 @@
+.section-footer {
+    padding: 80px 8% 70px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 1.0rem;
+}
+
+.footer-content h4 {
+    margin-bottom: 1.0rem;
+    font-size: 20px;
+    color: #6b526b;
+}
+
+.footer-content li {
+    margin-bottom: 8px;
+
+}
+
+.footer-content li a {
+    display: block;
+    color: #6b526b;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all .40s ease;
+
+}
+
+.footer-content p {
+    font-size: 16px;
+    color: #6b526b;
+}
+
+img {
+    margin-left: -16px;
+}
+
+.icons {
+    display: flex;
+    gap: 1.0rem;
+    color: #6b526b;
+}
