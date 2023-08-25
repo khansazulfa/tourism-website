@@ -1,16 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-header {
-  background: url(src/assets/images/h2.jpg);
-  background-size: cover;
-  border-radius: 40px;
-  min-height: 82vh;
-  width: 85%;
-  padding: 120px 0 90px;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: -24px;
+.container-banner {
+  padding: 0 80px;
 }
+
+header {
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+
+.banner-content {
+  top: 20%;
+  left: 1px;
+  right: 1px;
+  padding: 20px;
+  position: absolute;
+}
+
+img {
+  border-radius: 45px;
+}
+
+.section-search {
+  position: relative;
+  height: 80px;
+  width: 70%;
+  padding: 0 90px;
+  opacity: 0.9;
+  left: 14%;
+}
+
+.search-travel {
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.input-search {
+  width: 70%;
+  height: 40px;
+  display: inline-block;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-radius: 5px;
+
+}
+
+
 
 h1,
 p {
@@ -18,8 +58,7 @@ p {
 }
 
 h1 {
-  margin-top: -20px;
-  padding: 30px 0 20px;
+  padding: 20px 0 20px;
   font-family: 'Playfair Display', sans-serif;
   font-weight: bold;
   font-size: 50px;
@@ -27,7 +66,7 @@ h1 {
 
 p {
   font-size: 20px;
-  margin-bottom: 30px;
+  padding: 0 0 30px 0;
 }
 
 .btn-get-started {
@@ -36,6 +75,7 @@ p {
   border-radius: 8px;
   font-size: 16px;
   text-decoration: none;
+  top: 90%;
   padding: 10px 15px;
   cursor: pointer;
 
@@ -48,12 +88,15 @@ p {
 
 .title {
   color: #6b526b;
-  margin-top: 30px;
   font-size: 40px;
 }
 
 .desc-title {
   font-size: 20px;
+}
+
+.section-card {
+  padding: 50px;
 }
 
 .card-list {
@@ -68,20 +111,17 @@ p {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 1.5rem;
   gap: 20vh;
 }
 
 .content-networks {
   color: #6b526b;
-  margin-top: 40px;
 }
 
 .heading-content-networks {
   font-size: 40px;
   font-family: 'Playfair, Display', serif;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 .section-testimonials {
@@ -98,4 +138,13 @@ p {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.separation-line {
+  border: 1px solid #e6e6e6;
+}
+
+.content-end {
+  padding: 15px;
+  text-align: center;
 }
