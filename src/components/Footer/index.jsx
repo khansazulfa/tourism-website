@@ -6,7 +6,7 @@ function Footer() {
         <section className="section-footer">
             <div className="footer">
                 <div className="footer-content">
-                    <img src="src/assets/images/logo.png" alt="img-logo" />
+                    <img className="logo-footer" src="src/assets/images/logo.png" alt="img-logo" />
                     <p className="tagline">Explore beautiful places <br /> as Easy as One Click</p>
                     <div className="icons">
                         <a className=" coba" href="#">
