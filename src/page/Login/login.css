@@ -1,0 +1,96 @@
+.wrapper {
+    background-image: url(/src/assets/images/h2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.section-login {
+    background-color: #fff;
+    width: 420px;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.section-login .bg-img {
+    text-align: center;
+}
+
+.section-login .input-box {
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+.section-login .btn-forgot {
+    display: flex;
+    font-size: 14.5px;
+    justify-content: space-between;
+
+}
+
+.section-login .remember-forgot {
+    margin: 0 0 50px;
+
+}
+
+
+
+.remember-forgot label input {
+    accent-color: #fff;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+}
+
+.section-login .btn-login {
+    width: 100%;
+    height: 45px;
+    background-color: #6b526b;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px;
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+        background-color: #CBAACB;
+        color: #fff;
+    }
+}
+
+.section-login .sign-up {
+    font-size: 14px;
+    text-align: center;
+    margin: 40px 0 15px;
+
+}
+
+.sign-up p a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sign-up p a:hover {
+    text-decoration: underline;
+}
