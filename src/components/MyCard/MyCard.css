@@ -22,7 +22,10 @@ h1 {
   flex-wrap: wrap;
 }
 
+
+
 .travel-content {
+  position: relative;
   overflow: hidden;
   text-align: center;
   width: 240px;
@@ -30,10 +33,11 @@ h1 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin: 1.5rem;
   background-size: cover;
 }
+
+
 
 .travel-content:hover {
   box-shadow: 5px 15px 25px #eeeeee;
@@ -43,6 +47,26 @@ h1 {
   height: 100%;
 }
 
+.travel-info {
+  color: #fff;
+  position: absolute;
+}
+
+.travel-title {
+  font-size: 20px;
+  padding: 20px 0 10px;
+}
+
+.travel-location {
+  font-size: 26px;
+}
+
+
+.travel-btn {
+  padding: 170px 0 80px;
+}
+
+
 .travel-content a:link,
 .travel-content a:visited {
   display: inline-block;
@@ -50,7 +74,6 @@ h1 {
   background-color: #A87FA8;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  margin-top: 0.5rem;
   transform: all 0.2s;
   color: #FFf;
 }
@@ -58,22 +81,4 @@ h1 {
 .travel-content a:hover {
   transform: scale(1.1);
   background-color: #CBAACB;
-}
-
-.travel-info {
-  color: #fff;
-}
-
-.travel-title {
-  font-size: 20px;
-  margin-top: -48vh;
-}
-
-.travel-location {
-  font-size: 28px;
-  margin-top: 2vh;
-}
-
-.travel-btn {
-  margin-top: 25vh;
 }
