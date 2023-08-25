@@ -9,15 +9,11 @@
 }
 
 .footer-content h4 {
-    margin-bottom: 1.0rem;
     font-size: 20px;
     color: #6b526b;
 }
 
-.footer-content li {
-    margin-bottom: 8px;
 
-}
 
 .footer-content li a {
     display: block;
@@ -33,9 +29,7 @@
     color: #6b526b;
 }
 
-img {
-    margin-left: -16px;
-}
+/* .footer-content img {} */
 
 .icons {
     display: flex;
