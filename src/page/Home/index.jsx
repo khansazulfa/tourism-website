@@ -13,7 +13,7 @@ function Home() {
       <NavBar />
       <div className='container-banner'>
         <header className="banner" >
-          <img src="/src/assets/images/h2.jpg" alt="bg" />
+          <img src="/src/assets/images/h2.jpg" className="bg-header" />
           <div className='banner-content'>
             <h1> Explore beautiful places
               <br />
