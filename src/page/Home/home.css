@@ -20,7 +20,8 @@ header {
   position: absolute;
 }
 
-img {
+header img {
+  width: 100%;
   border-radius: 45px;
 }
 
@@ -30,10 +31,12 @@ img {
   width: 70%;
   padding: 0 90px;
   opacity: 0.9;
-  left: 14%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .search-travel {
+  display: flex;
   background-color: #fff;
   border-radius: 40px;
   padding: 40px;
@@ -41,16 +44,13 @@ img {
 }
 
 .input-search {
-  width: 70%;
+  flex-grow: 1;
   height: 40px;
   display: inline-block;
   border-style: solid;
   border-color: #e6e6e6;
   border-radius: 5px;
-
 }
-
-
 
 h1,
 p {
